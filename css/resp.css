@@ -1,0 +1,246 @@
+@media only screen and (max-width: 1280px) {
+    nav div#inside {
+        width: 100vw;
+    }
+
+    nav div#inside section#menu {
+        position: fixed;
+        top: 80px;
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        align-items: none;
+    }
+
+    nav div#inside img {
+        margin: 0 0 0 10px;
+    }
+
+    nav div#inside section#menu button {
+        width: 100vw;
+        height: 60px;
+        margin: 0;
+        background-color: rgba(255, 255, 255, .9);
+    }
+
+    nav div#inside section#menu button:last-child {
+        margin: 0;
+    }
+
+    nav div#inside div#mobile {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav div#inside div#mobile button {
+        height: 100%;
+        margin: 0 0 0 20px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        padding: 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: .9rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    nav div#inside div#mobile i {
+        height: 100%;
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 20px 0 20px;
+        padding: 0 20px 0 20px;
+    }
+
+    header {
+        height: calc(100vh - 80px);
+    }
+
+    header h1 {
+        width: calc( 100% - 20px );
+        font-size: 2rem;
+    }
+    
+    header h2 {
+        font-size: 1.6rem;
+    }
+
+    section#aboutUs {
+        width: 100vw;
+    }
+
+    section#aboutUs h1 {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+    
+    section#aboutUs h2 {
+        width: calc( 100% - 20px );
+        font-size: 1rem;
+    }
+
+    section#rooms {
+        background: none;
+        clip-path: none;
+        margin: 60px 0 0 0;
+    }
+
+    section#rooms h1 {
+        font-size: 1.6rem;
+        margin: 20px 0 20px 0;
+        color: #000;
+        text-shadow: none;
+    }
+
+    section#rooms div#inside {
+        width: calc( 100vw - 40px );
+        flex-direction: column;
+        align-items: center;
+        justify-content: none;
+        margin: 0px;
+    }
+
+    section#rooms div#inside div.room {
+        width: calc( 100% - 20px );
+        margin: 20px 0 20px 0;
+        height: auto;
+    }
+
+    section#rooms div#inside div.room:hover {
+        transform: none;
+        margin: 20px 0 20px 0;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .2);
+    }
+
+    section#rooms div#inside div.room h1 {
+        font-size: 1.4rem;
+    }
+
+    section#rooms div#inside div.room:first-child {
+        margin: 0px 0 20px 0;
+    }
+
+    section#restaurant {
+        height: auto;
+        background: none;
+        margin: 60px 0 0 0;
+        align-items: flex-start;
+    }
+
+    section#restaurant h1 {
+        font-size: 1.6rem;
+        margin: 0 0 20px 0;
+    }
+
+    section#restaurant div#inside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#restaurant div#inside img {
+        width: calc( 100% - 60px );
+        height: auto;
+    }
+
+    section#restaurant div#inside div#text {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+
+    section#restaurant div#inside div#text h1 {
+        width: 100%;
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+
+    section#restaurant div#inside div#text h2 {
+        width: calc( 100% - 60px );
+        font-size: 1.2rem;
+        text-align: justify;
+        margin: 20px 0 0 0;
+    }
+
+    section#restaurant div#inside div#text h2:last-child {
+        margin: 20px 0 20px 0;
+    }
+
+    section#gallery {
+        background: none;
+        clip-path: none;
+        margin: 60px 0 0 0;
+    }
+
+    section#gallery h1 {
+        font-size: 1.6rem;
+        margin: 20px 0 20px 0;
+        color: #000;
+        text-shadow: none;
+    }
+
+    section#gallery div#inside {
+        width: calc( 100% - 40px );
+        flex-direction: column;
+        align-items: center;
+        justify-content: none;
+        flex-wrap: none;
+    }
+
+    section#gallery div#inside img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0 20px 0;
+        cursor: default;
+        transition: none;
+    }
+
+    section#gallery div#inside img:hover {
+        transform: none;
+        margin: 20px 0 20px 0;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .2);
+    }
+
+    section#contact {
+        height: auto;
+        margin: 0 0 100px 0;
+    }
+
+    section#contact div#mapouter {
+        position: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    section#contact div#mapouter div#info {
+        position: initial;
+        width: calc( 100% - 40px );
+        height: auto;
+        box-shadow: none;
+    }
+
+    section#contact div#mapouter div#info h1 {
+        font-size: 1.6rem;
+    }
+
+    section#contact div#mapouter div#info h2 {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer h1 {
+        width: calc( 100% - 40px);
+        font-size: .8rem;
+        margin: 20px 0 20px 0;
+    }
+}
